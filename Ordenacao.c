@@ -13,7 +13,7 @@ int *preencheVetor(int *vet,int tamanho) // Preenche o vetor com numeros gerados
     return vet;    
 }
 
-double quickSort(int *vet, int esquerda, int direita)
+double quickSort(int *vet, int esquerda, int direita) // a função retorna um double contendo o tempo de execução do algoritmo
 {
     struct timeval inicio,fim;
     double tempoDecorrido = 0.0;
